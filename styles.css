@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+header{
+    background-color: rgba(133, 133, 189, 0.8);
+    color: whitesmoke;
+}
+h1{
+    padding: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 33px;
+    font: 500; 
+    letter-spacing: 0.3rem; 
+}
+.one{
+    text-align: center;
+}
+q{
+    font-size: 1.2rem;
+    font-style: italic;
+    text-align: center;
+    justify-content: center;
+}
+ul{
+    list-style: none;
+    text-align: end;
+    font-size: 20px;
+    padding-top: 1.5rem;
+}
+li{
+    display: inline;
+    padding-left: 2rem;
+}
+
+figure{
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+}
+img{
+    width: 25%;
+    height: 25%;
+    border-radius: 4%;
+
+}
+img:hover{
+    width: 30%;
+    height: 40%;
+    cursor: pointer;
+}
+a:visited{
+    color: coral;
+}
+.ch{
+    text-decoration: double;
+}
